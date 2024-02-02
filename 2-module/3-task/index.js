@@ -1,15 +1,15 @@
 let calculator = {
-  value_a: 0,
-  value_b: 0,
+  number_a: 0,
+  number_b: 0,
   read: function(a, b) {
-    this.value_a = a;
-    this.value_b = b;
+    this.number_a = a;
+    this.number_b = b;
   },
   sum: function() {
-    return this.value_a + this.value_b;
+    return this.number_a + this.number_b;
   },
   mul: function() {
-    return this.value_a * this.value_b;
+    return this.number_a * this.number_b;
   }
 
   // ваш код
