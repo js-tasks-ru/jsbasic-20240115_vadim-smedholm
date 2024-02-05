@@ -1,3 +1,7 @@
 function sumSalary(salaries) {
-  // ваш код...
+  let sumSalaries = 0;
+  for (let i in salaries) {
+    isFinite(salaries[i]) ? sumSalaries += salaries[i] : sumSalaries;
+  }
+  return sumSalaries;
 }
